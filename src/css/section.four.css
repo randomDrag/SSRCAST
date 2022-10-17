@@ -1,0 +1,91 @@
+.Section-four {
+  height: 100vh;
+  background-color: #c3bef0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section_four_slider {
+   display: flex;
+  justify-content: center;
+  width: 90vw;
+  padding: 20px;
+  align-items: center;
+  /* height: 500px; */
+}
+
+
+.Slider_container {
+
+  width: 100%;
+  /* border: 2px solid red; */
+
+  padding: 0 20px;
+
+}
+
+
+
+.Section_four_cont {
+}
+
+.Section_four_cont h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  /* identical to box height */
+
+  color: #6a289f;
+}
+
+
+.slider_style {
+
+  margin: 40px ;
+  padding: 20px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+
+
+  .Section_four_cont{
+
+    text-align: center;
+
+
+  }
+
+
+  .Section_four_cont h1{
+
+    text-align: center;
+
+
+  }
+
+
+  .section_four_slider{
+
+    width: 100%;
+
+
+  }
+
+
+  .Slider_container {
+
+    width: 100vw;
+    /* border: 2px solid red; */
+  
+    padding: 0 ;
+  
+  }
+  
+
+
+}

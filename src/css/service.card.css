@@ -1,0 +1,44 @@
+.service-card{
+    min-width: 250px;
+    min-height: 370px;
+    background-color: #6A289F;
+    box-shadow: -4px 9px 17px 2px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+position: relative;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+}
+
+.service-card-circle {
+position: absolute;
+top: 0;  /* position the top  edge of the element at the middle of the parent */
+left: 50%; /* position the left edge of the element at the middle of the parent */
+
+transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    background: #A39CE8;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.25);
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+.service-card {
+
+    width: 150px;
+    height: 300px;
+    margin: 50px 0;
+
+
+}
+
+
+
+
+    
+}

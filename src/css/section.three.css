@@ -1,0 +1,158 @@
+.section-Third {
+
+    height: 100vh;
+
+
+}
+
+
+.section-third-para{
+
+    margin: 4% 4%;
+}
+
+.section-third-para h1{
+    font-family: poppins;
+    font-weight: 700;
+    color: #6A289F;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+
+.section-third-para p{
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: left;
+    font-size: .9rem;
+    padding: 4% 0px;
+}
+
+
+.section-third-card{
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.service-card-circle {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+}
+
+.Service-card-image {
+
+    height: 70px;
+    width: 70px;
+
+}
+
+.service_card_div {
+
+    display: flex;
+    
+    align-items: center;
+    padding: 5px 0;
+
+    cursor: pointer;
+}
+
+.service_card_click{
+
+    margin-top: 15px;
+
+}
+
+.service_card_div h3{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #D7F0F7; 
+    font-size: 0.9rem;   
+    padding: 10px;
+}
+
+
+
+.service-card-container h5{
+
+    color: #D7F0F7;
+    font-family: 'poppins';
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+  
+    margin: 50px 0;
+    
+}
+
+.line-service-card{
+
+    display: inline-block;
+    border-top: 1px solid #ccc;
+    /* margin: 0 10px; */
+    width: 100%;
+
+
+}
+
+.section-three-line {
+
+    background-color: #C3BEF0;
+    width: 20px;
+    height: 100px;
+    max-height: 200px;
+    margin: 0 120px;
+   
+}
+
+.section-draw {
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+.section-third-card{
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-Third {
+
+    height: 100%;
+
+
+}
+
+
+.section-third-para{
+
+    margin-top: 200px;
+    
+}
+
+
+.section-third-para h1{
+ 
+    font-size: 2rem;
+}
+
+
+.section-third-para p{
+    
+    font-size: .8rem;
+  
+}
+
+}

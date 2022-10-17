@@ -1,0 +1,184 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #572182; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #572182; 
+  }
+
+.section-one {
+  background-color: #cadefc;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.section_one_container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+  height: 100%;
+
+  /* border: 2px solid black; */
+}
+
+.text_container {
+/* border: 2px solid black; */
+  width: 100%;
+  padding-left: 10%;
+  margin-left: 50px;
+  flex: 1;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.text_container h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #221a70;
+  font-size: 2.5rem;
+margin-top: 15%;
+
+}
+
+.text_container p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #572182;
+  font-size: 0.8rem;
+  padding-top: 40px;
+
+}
+
+.getInTouch {
+
+
+
+
+  padding-top: 50px;
+
+}
+
+
+.getInTouch button{
+  text-decoration: none;
+  padding: 10px;
+  color: #572182;
+  background: #A39CE8;
+  width: 150px;
+  height: 42px;
+  border: none;
+  font-size: .8rem;
+  font-family: Montserrat;
+  font-weight: 500;
+
+}
+
+
+.getInTouch button:hover{
+  color: #3d185b;
+  background: #8a84c4;
+  transition: all 1s ease-in-out;
+  
+}
+
+.getInTouch button:active{
+  color: #3d185b;
+  background: #8a84c4;
+  width: 140px;
+  transition: all 1s ease-in-out;
+  
+}
+/* .getInTouch a:link {
+  text-decoration: none;
+  padding: 10px;
+  color: #572182;
+  background: #A39CE8;
+  width: 150px;
+  height: 42px;
+  border: none;
+  font-family: poppins;
+  font-weight: 500;
+} */
+
+
+.image_container {
+
+  width: 100%;
+  flex: 1;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image_triangle {
+  width: 70%;
+  margin-right: 30px;
+}
+
+.image_people {
+  position: absolute;
+    width: 60%;
+    margin-left: 5%;
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+  .image_container{
+
+    display: none;
+
+  }
+
+.text_container{
+  
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  padding: 0px;
+  margin: 0;
+  margin: 3px;
+}
+
+
+.section_one_container {
+
+  justify-content: center;
+}
+
+.text_container h1 {
+ text-align: center;
+ font-size: 2.4rem;
+ margin: 15% 10px 0;
+
+}
+
+.text_container p {
+  text-align: center;
+  padding: 20% 10px 0;
+}
+
+}

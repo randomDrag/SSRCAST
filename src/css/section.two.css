@@ -1,0 +1,184 @@
+.SectionTwo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  padding: 7% 0;
+  position: relative;
+}
+
+.SectionTwo-heading {
+  /* border: 2px solid blue; */
+  font-family: Poppins;
+  font-weight: 700;
+  color: #6a289f;
+  font-size: 2rem;
+  margin-bottom: 7%;
+}
+
+
+.SectionTwo-heading h1{
+  /* border: 2px solid blue; */
+  font-family: Poppins;
+  font-weight: 700;
+  color: #6a289f;
+  font-size: 2.3rem;
+  margin-bottom: 7%;
+}
+
+.SectionTwo-body {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  /* border: 2px solid blue; */
+  margin: 7% 0;
+}
+
+.SectionTwo-data {
+  padding: 0 10px;
+  border-right: 1px solid #6a289f;
+  flex: 1;
+}
+
+.SectionTwo-data h4 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #6a289f;
+  font-size: 1.2rem;
+}
+
+.SectionTwo-data h5 {
+  font-family: "poppins";
+  font-weight: 700;
+  color: #221a70;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 50px 0;
+}
+
+.section-two-line {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  padding: 10px 10px;
+  border-right: 1px solid #6a289f;
+}
+
+.sectionTwo-circle {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  background-color: #c3bef0;
+  z-index: -9;
+  border-radius: 80%;
+  left: -10%;
+  top: 20%;
+}
+
+.sectionTwo-circle2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: #c3bef0;
+  z-index: -9;
+  border-radius: 80%;
+  left: 25%;
+  top: 40%;
+  overflow: clip;
+}
+
+.sectionTwo-circle3 {
+  overflow: clip;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  background-color: #c3bef0;
+  z-index: -9;
+  border-radius: 80%;
+  left: 70%;
+  top: 50%;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+
+
+.sectionTwo-circle-image {
+
+  width: 290px;
+  height: 290px;
+  border-radius: 80%;
+  
+  
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+
+  .sectionTwo-circle{
+
+    width: 300px;
+    height: 300px;
+
+
+  }
+
+
+  .sectionTwo-circle2 {
+
+
+    width: 100px;
+    height: 100px;
+    top: 51%;
+    left: 45%;
+
+  }
+
+
+
+  .sectionTwo-circle3{
+
+    width: 150px;
+    height: 150px;
+    top: 80%;
+    left: 50%;
+
+  }
+
+  .sectionTwo-circle-image{
+
+    width: 100px;
+  height: 100px;
+  }
+
+  .SectionTwo-body{
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  .SectionTwo-data {
+    padding: 0 10px;
+    /* border-top: 1px solid #6a289f; */
+    border-right: none;
+    flex: 1;
+  }
+  
+
+  .SectionTwo-heading {
+
+ margin-top:200px;
+
+  }
+
+  
+
+}

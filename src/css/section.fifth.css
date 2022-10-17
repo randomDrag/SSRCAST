@@ -1,0 +1,160 @@
+
+
+.FifthSection{
+position: relative;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+ 
+
+}
+
+
+.FifthSectionImage {
+
+  width: 100%;
+ 
+  top: 0%;
+  z-index: -99;
+  position: absolute;
+}
+
+.fifth_section_form {
+
+
+}
+
+.form_box h1 {
+
+
+    font-family: montserrat;
+    color: #6A289F;
+    font-size: 1.8rem;
+
+}
+
+
+.form_box {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    border: 2px solid #6A289F;
+
+    background: #FFF;
+}
+
+.submit_button_fifth{
+
+  
+    width: 105px;
+    height: 40px;
+    border: none;
+    font-family: montserrat;
+    color: #C3BEF0;
+    background: #6A289F;
+    box-shadow: 1px 7px rgb(0 0 0 / 25%);
+    border-radius: 65px;
+    margin: 20px 0;
+
+}
+
+
+.CustomInput {
+
+    padding: 10px;
+    border: 3px solid #6A289F;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: montserrat;
+    outline: none;
+   
+  background: #FFF;
+
+}
+
+.CustomSelect {
+  margin: 3px;
+}
+
+
+.CustomSelect select {
+
+    padding: 10px;
+    border: 3px solid #6A289F;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 0.7rem;
+    margin: 10px;
+    text-align: left;
+    font-family: montserrat;
+    outline: none;
+  
+
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+   
+  }
+
+
+  select.CustomSelectSelector {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+
+
+.CustomInput input {
+
+    outline: none;
+    border: none;
+    font-family: "Montserrat";
+    height: 100%;
+    color: #6A289F;
+    width: 100%;
+
+}
+
+.outBox_button label {
+
+    padding: 0 20px;
+    font-family: "Montserrat";
+    font-size: 0.7rem;
+    color: #6A289F;
+
+}
+
+.outBox_button {
+
+    padding: 10px;
+}
